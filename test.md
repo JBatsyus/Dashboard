@@ -62,6 +62,17 @@ $ npm init
    console.log(parseInt('ыыыы'));
 
   
+    let box = 'ыыыы';
+ try {
+if (box !== NaN) {
+        throw new Error('Введены некорректные данные');
+    }
+    console.log(parseInt(box));
+} catch (e) {
+
+  console.log(`error ` + e.message)
+}
+
     
     
 9. Изучите документацию к библиотеке moment [https://momentjs.com/](https://momentjs.com/) и скажите, как вывести название дня недели по дате?
