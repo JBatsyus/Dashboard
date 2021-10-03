@@ -18,6 +18,8 @@
   "homepage": "https://github.com/JBatsyus/week_22.1#readme",
   "dependencies": {
     "chart.js": "^3.5.1",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "particles.js": "^2.0.0",
+    "typed.js": "file:typed.js"
   }
 }
